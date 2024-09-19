@@ -1,16 +1,149 @@
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Website</title>
-    <link rel="stylesheet" href="{% static 'brpapp/css/style.css' %}">
+   <title>Bishworaj Poudel</title>
+   <!-- Latest compiled and minified CSS -->
+   <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="icon" type="image/x-icon" href="brp.ico">
+   <link rel="stylesheet" href="{% static 'brpapp/css/style.css' %}">
 </head>
+
 <body>
-    <h1>My Website</h1>
-    
-    <img src="{% static 'brpapp/images/brp.jpg' %}" alt="My Photo">
-    <script src="{% static 'brpapp/js/scripts.js' %}"></script>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+   <h1 id="me">About Me</h1>
+
+   <img class="img-thumbnail" src="{% static 'brpapp/images/brp.jpg' %}" alt="Bishworaj Poudel" height="150" width="150">
+   <br>
+ <p>
+   As your dedicated IT mentor, I am here to support your journey towards mastering technology and achieving career success. My role is to guide you through the complexities of IT, making learning engaging and effective.
+   Proven Expertise: With over 7 years of teaching experience, I have successfully mentored thousands of students, many of whom now thrive in top companies across Nepal.
+   
+ </p>
+   <!-- <h1>H<sub>2</sub>O</h1>
+      <h1>a<sup>2</sup> + 2ab + b<sup>2</sup></h1> -->
+   <h1>Technical Skills</h1>
+   <ul>
+      <li>Teaching IT Knowledge</li>
+      <li>Content Creation</li>
+      <li>Python</li>
+      <li>Django</li>
+      <li>Git</li>
+      <li>Github</li>
+      <li>HTML, CSS and JS</li>
+   </ul>
+
+   <h1>Soft Skills</h1>
+   <ul>
+      <li>Communication</li>
+      <li>Problem Solving</li>
+      <li>Teamwork</li>
+      <li>Adaptability</li>
+      <li>Time Management</li>
+      <li>Leadership</li>
+   </ul>
+   <h1>Projects</h1>
+   <ol>
+      <li> <a target="_blank" href="https://play.google.com/store/apps/details?id=computerbasicguide.com&hl=en"> Learn Computer Basic</a></li>
+      <li> <a href="https://dart-tutorial.com/">Dart Learning Website</a> </li>
+      <li> <a href="https://technologychannel.org/">Technology Channel Website</a> </li>
+   </ol>
+
+   <h1>Services</h1>
+   <ul>
+      <li>Online Class</li>
+      <li>App Development</li>
+      <li>Tech Connsult</li>
+   </ul>
+
+    <h1>Language Known</h1>
+   <ul>
+      <li>Nepali</li>
+      <li>English</li>
+      <li>Hindi</li>
+   </ul>
+
+
+   <h1>Certifications</h1>
+   <ul>
+      <li>Google Digital Marketing Course</li>
+      <li>Google AI Essential Course</li>
+   </ul>
+
+   <h1>Work Experience</h1>
+   <!-- Job Title, Company Name, Location -->
+   <ul>
+      <li>Teacher at Infomax Pvt.Ltd (2014-2017)</li>
+      <li>Content Creator at Technology Channe(2016-Now)</li>
+      <li>Tech Consulatation(2020-Now)</li>
+   </ul>
+
+   <h1>Education</h1>
+   <table>
+      <tr>
+         <th>School/College</th>
+         <th>Year</th>
+      </tr>
+      <tr>
+         <td>Balmandir Secondary School</td>
+         <td>2070</td>
+      </tr>
+      <tr>
+         <td>Pashchimanchal Higher Secondary School</td>
+         <td>2072</td>
+      </tr>
+      <tr>
+         <td>Informatics College</td>
+         <td>2076</td>
+      </tr>
+   </table>
+   
+   <footer>
+     
+         <p class="social">
+        <a href="https://facebook.com/iambrp.tech" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bishworajpoudelofficial/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/bishworajpoudelofficial" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+    </p>
+
+    <p class="text-black-50" style="text-align: center;"> Copyright © 2024 Bishworaj Poudel</p>
+
+   </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
 </body>
+
 </html>
+
+
